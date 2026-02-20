@@ -3,6 +3,9 @@
     margin:0;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: black;
+}
 header{
     background-color: #523366;
     display: flex;
@@ -24,4 +27,30 @@ header a{
 header a:hover{
     text-decoration: underline;
     color: rgb(214, 201, 201);
+}
+.hero{
+    height: 75vh;
+    background: linear-gradient(to right, rgba(99, 32, 125, 0.7), rgba(99,32,125,0.5)),
+                url('../images/hero_image.jpg') no-repeat center/cover;
+    display: flex;
+}
+.conteudo-hero{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    margin-left: 5vw;
+}
+.foto{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+}
+.introducao{
+    color: white;
+    font-size: 2.6rem;
+}
+.introducao-texto{
+    color: white;
+    max-width: 50vw;
 }
